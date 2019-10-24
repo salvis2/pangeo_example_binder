@@ -1,4 +1,4 @@
-name: /Users/Stitchclone3/Documents/pangeo_envs
+name: pangeo_env
 channels:
   - defaults
 dependencies:
@@ -168,5 +168,4 @@ dependencies:
     - rsa==4.0
     - websocket-client==0.56.0
     - yarl==1.3.0
-prefix: /Users/Stitchclone3/Documents/pangeo_envs
 
