@@ -3,18 +3,19 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
-  - dask_labextension
-  - jupyterhub
-  - numpy
-  - jupyterlab
-  - dask
-  - jupyter-server-proxy
-  - matplotlib
-  - dask-kubernetes
-  - intake
-  - distributed
+  - dask-gateway
   - scipy
+  - distributed
+  - dask_labextension
+  - jupyterlab
+  - dask-kubernetes
+  - jupyterhub
+  - intake
+  - python
+  - jupyter-server-proxy
+  - dask
+  - matplotlib
+  - numpy
   - xarray
 prefix: /Users/Stitchclone3/opt/anaconda3/envs/pangeo_env
 
