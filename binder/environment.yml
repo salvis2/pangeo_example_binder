@@ -19,5 +19,6 @@ dependencies:
   - numpy
   - jupyterhub
   - s3fs
+  - intake-xarray
 prefix: /Users/Stitchclone3/opt/anaconda3/envs/pangeo_env
 
