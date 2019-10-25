@@ -18,5 +18,6 @@ dependencies:
   - dask
   - numpy
   - jupyterhub
+  - s3fs
 prefix: /Users/Stitchclone3/opt/anaconda3/envs/pangeo_env
 
