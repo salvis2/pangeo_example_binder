@@ -12,3 +12,35 @@ distributed:
   admin:
     tick:
       limit: 5s
+
+kubernetes:
+  name: dask-{JUPYTERHUB_USER}-{uuid}
+  worker-template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: dask-${JUPYTERHUB_USER}
+          image: ${JUPYTER_IMAGE_SPEC}
+          args:
+            - dask-worker
+            - --nthreads
+            - '2'
+            - --no-dashboard
+            - --memory-limit
+            - 7GB
+            - --death-timeout
+            - '60'
+          resources:
+            limits:
+              cpu: "1.75"
+              memory: 7G
+            requests:
+              cpu: 1
+              memory: 7G
+
+labextension:
+  factory:
+    module: dask_kubernetes
+    class: KubeCluster
+    args: []
+    kwargs: {}

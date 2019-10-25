@@ -1,16 +1,18 @@
-name: binder_env
+name: pangeo_env
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - jupyterlab
-  - tornado
-  - jupyter-server-proxy
-  - python-graphviz
   - bokeh
   - dask
-  - nbgitpuller
-  - distributed
+  - jupyterlab
+  - jupyter-server-proxy
   - jupyterhub
-prefix: /Users/Stitchclone3/opt/anaconda3/envs/binder_env
+  - tornado
+  - dask-kubernetes
+  - distributed
+  - dask-labextension
+  - python-graphviz
+  - nbgitpuller
+prefix: /Users/Stitchclone3/opt/anaconda3/envs/pangeo_env
 
