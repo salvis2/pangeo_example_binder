@@ -11,4 +11,4 @@ Documentation for the binder development process will be
   here
 </a>
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salvis2/pangeo_example_binder/master?urlpath=lab)
+[![Binder](https://aws-uswest2-binder.pangeo.io/badge_logo.svg)](https://aws-uswest2-binder.pangeo.io/v2/gh/salvis2/pangeo_example_binder/tree/pangeo_notebook/pangeo_notebook)
