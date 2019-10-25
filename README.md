@@ -1,6 +1,8 @@
 # Example Binder Repo for Pangeo
 This is a repo to develop the methodology on how to make a binder from a conda environment and some Jupyter notebooks.
 
+This branch is for a general repo that will be launched on mybinder.org.
+
 The project here will be using publicly-available Landsat 8 data, described 
 <a href="https://registry.opendata.aws/landsat-8/">
   here
