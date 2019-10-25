@@ -3,16 +3,20 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - bokeh
-  - dask
-  - jupyterlab
-  - jupyter-server-proxy
-  - jupyterhub
-  - tornado
   - dask-kubernetes
+  - jupyterlab
   - distributed
+  - jupyter-server-proxy
   - dask-labextension
   - python-graphviz
   - nbgitpuller
+  - scipy
+  - bokeh
+  - xarray
+  - tornado
+  - intake
+  - dask
+  - numpy
+  - jupyterhub
 prefix: /Users/Stitchclone3/opt/anaconda3/envs/pangeo_env
 
