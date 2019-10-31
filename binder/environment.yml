@@ -17,12 +17,12 @@ dependencies:
   - bokeh=1.3
   - python-graphviz=0.13
   - pip=19.3
-  - scipy
-  - xarray
-  - intake
   - numpy
+  - scipy
+  - matplotlib
+  - intake
   - s3fs
+  - xarray
   - intake-xarray
   - rasterio
-  - matplotlib
 
